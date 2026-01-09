@@ -34,6 +34,16 @@ Signal Integrity is crucial in high-speed PCB design. Traditional SI analysis re
 - **Design space exploration** without extensive simulations
 - **Early detection** of potential SI issues
 
+## Key Features
+
+✨ **Deep Learning Models**: 5-layer feedforward neural networks with ReLU activation  
+📊 **High Accuracy**: R² scores > 0.98 with MAE < 0.08  
+⚡ **Fast Training**: 2-5 minutes on standard hardware  
+🎯 **Multiple Outputs**: Predicts 5 critical SI parameters simultaneously  
+📈 **Comprehensive Analysis**: Includes visualization and performance metrics  
+🔧 **Easy to Use**: Well-documented Jupyter notebooks with step-by-step analysis
+
+
 ## Architecture
 
 ![Neural Network Architecture](neural_network_architecture.webp)
