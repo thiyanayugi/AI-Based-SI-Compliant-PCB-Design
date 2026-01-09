@@ -18,5 +18,12 @@ A clear and concise description of any alternative solutions or features you've 
 **Use Case**
 Explain how this feature would be used and who would benefit from it.
 
+**Priority and Impact**
+
+- Priority: [Low / Medium / High / Critical]
+- Impact: [Minor / Moderate / Significant / Major]
+- Estimated users affected: [Few / Some / Many / All]
+
 **Additional context**
 Add any other context, screenshots, or examples about the feature request here.
+
