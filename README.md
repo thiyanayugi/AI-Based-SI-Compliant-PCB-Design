@@ -7,6 +7,21 @@
 
 A machine learning approach to predicting Signal Integrity (SI) parameters in Printed Circuit Board (PCB) design using neural networks.
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Background](#background)
+- [Architecture](#architecture)
+- [Project Structure](#project-structure)
+- [Neural Network Architecture](#neural-network-architecture)
+- [Dataset](#dataset)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Authors](#authors)
+- [Contact](#contact)
+
+
 ## Overview
 
 This project implements deep learning models to predict critical Signal Integrity parameters for PCB transmission lines. By training neural networks on simulation data, we can rapidly predict SI characteristics without running time-consuming electromagnetic simulations.
