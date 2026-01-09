@@ -12,12 +12,21 @@ Please delete options that are not relevant.
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] Documentation update
+- [ ] Performance improvement
+- [ ] Code refactoring
 
 ## Changes Made
 
 -
 -
 -
+
+## Model Changes (if applicable)
+
+- [ ] Architecture modifications
+- [ ] Hyperparameter tuning
+- [ ] New training data
+- [ ] Performance metrics improved
 
 ## How Has This Been Tested?
 
@@ -27,6 +36,15 @@ Please describe the tests that you ran to verify your changes.
 - [ ] Verified model training converges
 - [ ] Checked prediction accuracy
 - [ ] Tested with different input configurations
+- [ ] Validated against baseline metrics
+
+## Performance Metrics (if applicable)
+
+| Metric | Before | After |
+|--------|--------|-------|
+| R² Score | | |
+| MAE | | |
+| Training Time | | |
 
 ## Checklist:
 
@@ -42,3 +60,4 @@ Please describe the tests that you ran to verify your changes.
 ## Screenshots (if appropriate):
 
 ## Additional Notes:
+
