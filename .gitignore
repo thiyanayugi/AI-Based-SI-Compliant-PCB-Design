@@ -1,3 +1,7 @@
+# ============================================
+# Python
+# ============================================
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -6,7 +10,9 @@ __pycache__/
 # C extensions
 *.so
 
-# Distribution / packaging
+# ============================================
+# Distribution / Packaging
+# ============================================
 .Python
 build/
 develop-eggs/
@@ -35,7 +41,9 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# ============================================
+# Testing / Coverage
+# ============================================
 htmlcov/
 .tox/
 .nox/
@@ -49,7 +57,9 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
+# ============================================
 # Jupyter Notebook
+# ============================================
 .ipynb_checkpoints
 *.ipynb_checkpoints/
 
@@ -57,10 +67,13 @@ coverage.xml
 profile_default/
 ipython_config.py
 
+# ============================================
+# Environment Management
+# ============================================
 # pyenv
 .python-version
 
-# Environments
+# Virtual Environments
 .env
 .venv
 env/
@@ -69,24 +82,47 @@ ENV/
 env.bak/
 venv.bak/
 
-# Spyder project settings
+# ============================================
+# IDE / Editor
+# ============================================
+# Spyder
 .spyderproject
 .spyproject
 
-# Rope project settings
+# Rope
 .ropeproject
 
-# mkdocs documentation
+# VSCode
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ============================================
+# Documentation
+# ============================================
+# mkdocs
 /site
 
+# ============================================
+# Type Checking / Linting
+# ============================================
 # mypy
 .mypy_cache/
 .dmypy.json
 dmypy.json
 
-# Pyre type checker
+# Pyre
 .pyre/
 
+# ============================================
+# Operating System
+# ============================================
 # macOS
 .DS_Store
 .AppleDouble
@@ -97,16 +133,19 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Project specific
+# ============================================
+# Project Specific
+# ============================================
+# Model files
 *.h5
 *.keras
 models/
+
+# Data files
 *.xlsx
 data/
+
+# TensorBoard logs
+logs/
+tensorboard/
+
