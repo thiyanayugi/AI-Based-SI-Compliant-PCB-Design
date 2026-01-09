@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "AI-Based Signal Integrity Compliant PCB Design"
+abstract: "A machine learning approach to predicting Signal Integrity (SI) parameters in Printed Circuit Board (PCB) design using neural networks."
+authors:
+  - family-names: "AI-Based SI-Compliant PCB Design"
+    given-names: "Contributors"
+repository-code: "https://github.com/thiyanayugi/AI-Based-SI-Compliant-PCB-Design"
+keywords:
+  - machine-learning
+  - signal-integrity
+  - pcb-design
+  - neural-networks
+  - tensorflow
+  - deep-learning
+  - electromagnetic-simulation
+license: MIT
+version: 1.0.0
+date-released: 2026-01-09
