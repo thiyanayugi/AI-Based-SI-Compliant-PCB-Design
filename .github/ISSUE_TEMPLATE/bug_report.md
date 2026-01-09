@@ -27,7 +27,15 @@ If applicable, add screenshots to help explain your problem.
 - OS: [e.g. Ubuntu 20.04, Windows 11, macOS 13]
 - Python Version: [e.g. 3.9.7]
 - TensorFlow Version: [e.g. 2.10.0]
+- Keras Version: [e.g. 2.10.0]
 - Notebook: [e.g. IC1_(1)_Diff_Transient.ipynb]
+
+**Model Information (if applicable):**
+
+- Model architecture: [e.g. 5-layer dense network]
+- Training data size: [e.g. 1000 samples]
+- Batch size: [e.g. 32]
+- Epochs: [e.g. 100]
 
 **Error Message**
 
@@ -37,3 +45,4 @@ Paste the full error message here
 
 **Additional context**
 Add any other context about the problem here.
+
