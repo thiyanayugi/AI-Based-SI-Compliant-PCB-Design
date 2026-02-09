@@ -154,9 +154,6 @@ The trained models achieve:
 - **Scikit-learn**: Data preprocessing and metrics
 - **Matplotlib**: Visualization
 
-## Authors
-
-- Your Name - Initial work
 
 ## Acknowledgments
 
