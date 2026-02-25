@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  jupyter:
+    build: .
+    container_name: si-pcb-design-jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/app/notebooks
+      - ./docs:/app/docs
+      - ./models:/app/models
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    restart: unless-stopped
