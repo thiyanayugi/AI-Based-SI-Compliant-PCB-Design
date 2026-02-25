@@ -4,6 +4,8 @@
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.10%2B-orange.svg)](https://www.tensorflow.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626.svg)](https://jupyter.org/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/thiyanayugi/AI-Based-SI-Compliant-PCB-Design/graphs/commit-activity)
 
 A machine learning approach to predicting Signal Integrity (SI) parameters in Printed Circuit Board (PCB) design using neural networks.
 
