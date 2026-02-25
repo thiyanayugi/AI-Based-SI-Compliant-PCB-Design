@@ -106,30 +106,89 @@ The models are trained on electromagnetic simulation data from PCB transmission 
 
 - Python 3.7 or higher
 - pip package manager
+- (Optional) Docker and Docker Compose
 
 ### Setup
+
+#### Option 1: Standard Python Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/AI-Based-SI-Compliant-PCB-Design.git
+git clone https://github.com/thiyanayugi/AI-Based-SI-Compliant-PCB-Design.git
 cd AI-Based-SI-Compliant-PCB-Design
 ```
 
 2. Install dependencies:
 
 ```bash
+# Using pip
 pip install -r requirements.txt
+
+# Or using make
+make install
+```
+
+3. (Optional) Install in development mode:
+
+```bash
+pip install -e .[dev]
+# Or
+make install-dev
+```
+
+#### Option 2: Docker Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/thiyanayugi/AI-Based-SI-Compliant-PCB-Design.git
+cd AI-Based-SI-Compliant-PCB-Design
+```
+
+2. Build and run with Docker Compose:
+
+```bash
+# Build the image
+make docker-build
+
+# Start the container
+make docker-up
+
+# Access Jupyter at http://localhost:8888
+```
+
+3. Stop the container:
+
+```bash
+make docker-down
 ```
 
 ## Usage
+
+### Quick Start with Makefile
+
+For convenience, common tasks are available via `make`:
+
+```bash
+make help          # Show all available commands
+make install       # Install dependencies
+make jupyter       # Start Jupyter notebook
+make docker-build  # Build Docker image
+make docker-up     # Run with Docker
+make clean         # Clean temporary files
+```
 
 ### Running the Notebooks
 
 1. Start Jupyter Notebook:
 
 ```bash
+# Standard method
 jupyter notebook
+
+# Or using make
+make jupyter
 ```
 
 2. Navigate to the `notebooks/` directory and open any analysis notebook
